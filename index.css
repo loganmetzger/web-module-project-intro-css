@@ -48,7 +48,7 @@ table {
 }
 font-size: 62.5%;
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /* Begin My Styling */
@@ -72,6 +72,8 @@ header nav a {
 	display: inline-block;
 	border-radius: 12px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
 }
 
 .nav1 {
@@ -113,6 +115,7 @@ h1 {
 
 .top-content h2 {
 	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .info {
