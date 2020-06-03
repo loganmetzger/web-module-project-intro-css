@@ -89,13 +89,14 @@ header nav a {
 .top-content {
 	display: flex;
 	flex-direction: row;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin: 30px 0;
 }
 
 .top-content img {
-	width: 150px;
-	height: 150px;
+	width: 175px;
+	height: 175px;
+	border-radius: 100%;
+	margin: 0 30px;
 }
 
 .top-content .headline {
@@ -103,10 +104,11 @@ header nav a {
 	margin: 0 auto;
 }
 
-.top-content h1 {
+h1 {
 	font-size: 3rem;
-	font-family: 'Chelsea Market';
+	font-family: 'Chelsea Market', cursive;
 	padding: 18px 0;
+	letter-spacing: 2px;
 }
 
 .top-content h2 {
@@ -135,7 +137,28 @@ header nav a {
 }
 
 .specifics .fire p {
-	
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.specifics .reservations img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.specifics .reservations p {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .banner img {
+	width: 100%;
+	object-fit: cover;
+	object-position: 20% 80%;
 }
 
 footer nav {
