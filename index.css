@@ -130,6 +130,7 @@ h1 {
 	line-height: 1.3;
 	text-align: center;
 	padding-bottom: 0 0 10px 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 .specifics .fire img {
@@ -143,6 +144,7 @@ h1 {
 	width: 200px;
 	margin: 0 auto;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 .specifics .reservations img {
@@ -156,6 +158,7 @@ h1 {
 	width: 200px;
 	margin: 0 auto;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 footer .banner img {
@@ -183,4 +186,5 @@ footer nav a {
 	display: inline-block;
 	border-radius: 12px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
