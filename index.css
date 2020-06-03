@@ -75,45 +75,86 @@ header nav a {
 }
 
 .nav1 {
-	background-color: coral;
+	background-color: #FF764E;
 }
 
 .nav2 {
-	background-color: cyan;
+	background-color: #5ED3EB;
 }
 
 .nav3 {
-	background-color: gold;
+	background-color: #FFCD69;
 }
 
 .top-content {
 	display: flex;
 	flex-direction: row;
-	/* width: 90%; */
 	margin-right: 50px;
 	margin-left: 50px;
 }
 
 .top-content img {
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 }
 
 .top-content .headline {
 	text-align: center;
+	margin: 0 auto;
 }
 
 .top-content h1 {
-	font-size: 2rem;
+	font-size: 3rem;
+	font-family: 'Chelsea Market';
+	padding: 18px 0;
+}
+
+.top-content h2 {
+	padding-bottom: 10px;
+}
+
+.info {
+	background-color: #DDB9A3;
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 15px;
+}
+
+.info p {
+	color: white;
+	line-height: 1.3;
+	text-align: center;
+	padding-bottom: 0 0 10px 0;
+}
+
+.specifics .fire img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 10px auto;
+}
+
+.specifics .fire p {
+	
+}
+
+footer nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 70%;
 }
 
 footer nav a {
-	width: 200px;
-	height: 100px;
-	margin: 0 5%;
+	width: 80px;
+	height: 30px;
 	text-decoration: none;
 	color: white;
-	padding: 20px 50px;
+	padding: 7px 30px;
 	display: inline-block;
-	border-radius: 20px;
+	border-radius: 12px;
+	text-align: center;
 }
