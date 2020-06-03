@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+font-size: 62.5%;
+* {
+	box-sizing: border-box;
+}
+
+/* Begin My Styling */
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 70%;
+}
+
+header nav a {
+	width: 80px;
+	height: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 7px 30px;
+	display: inline-block;
+	border-radius: 12px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8rem;
+}
+
+.nav1 {
+	background-color: #FF764E;
+}
+
+.nav2 {
+	background-color: #5ED3EB;
+}
+
+.nav3 {
+	background-color: #FFCD69;
+}
+
+.top-content {
+	display: flex;
+	flex-direction: row;
+	margin: 30px 0;
+}
+
+.top-content img {
+	width: 175px;
+	height: 175px;
+	border-radius: 100%;
+	margin: 0 30px;
+}
+
+.top-content .headline {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3rem;
+	font-family: 'Chelsea Market', cursive;
+	padding: 18px 0;
+	letter-spacing: 2px;
+}
+
+.top-content h2 {
+	padding-bottom: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.info {
+	background-color: #DDB9A3;
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 15px;
+}
+
+.info p {
+	color: white;
+	line-height: 1.3;
+	text-align: center;
+	padding-bottom: 0 0 10px 0;
+}
+
+.specifics .fire img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 10px auto;
+}
+
+.specifics .fire p {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.specifics .reservations img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	display: block;
+}
+
+.specifics .reservations p {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .banner img {
+	width: 100%;
+	object-fit: cover;
+	object-position: 20% 80%;
+}
+
+footer nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	width: 70%;
+}
+
+footer nav a {
+	width: 80px;
+	height: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 7px 30px;
+	display: inline-block;
+	border-radius: 12px;
+	text-align: center;
+}
