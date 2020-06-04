@@ -113,9 +113,15 @@ h1 {
 	letter-spacing: 2px;
 }
 
-.top-content h2 {
+.top-content .headline h2 {
 	padding-bottom: 10px;
 	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;;
+}
+
+.top-content .headline p {
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
 }
 
 .info {
